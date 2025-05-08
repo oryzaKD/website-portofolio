@@ -36,12 +36,13 @@ export function About() {
               </CardHeader>
               <CardContent className="text-left">
                 <p className="mb-4">
-                  I'm a passionate developer with over 5 years of experience in building web applications. I specialize
-                  in React, TypeScript, and modern frontend technologies.
+                  Interested in Product development, especially Information Technology and experienced as a Quality Assurance and Frontend Developer 
+                  with a history of working in the IT Consulting industry. Skilled in creating a system especially as Frontend Developer with Javascript, 
+                  Communication Skill, Technical Documentation, Troubleshooting, Automated Testing and Analyst.
                 </p>
                 <p>
-                  My journey began when I graduated with a degree in Computer Science from University Name. Since then,
-                  I've worked with various companies and clients to deliver high-quality software solutions.
+                Based on my experience working as a Systems Developer, the main role is to understand every step of the software development process. 
+                The most important thing in my job is to deliver results according to deadlines and meet customer expectations.
                 </p>
               </CardContent>
             </Card>
@@ -53,8 +54,8 @@ export function About() {
               <CardContent>
                 <div className="space-y-4 text-left">
                   <div>
-                    <h3 className="font-semibold">BSc in Computer Science</h3>
-                    <p className="text-sm text-muted-foreground">University Name, 2015-2019</p>
+                    <h3 className="font-semibold">Bachelor's degree, Information System</h3>
+                    <p className="text-sm text-muted-foreground">University of Jember, 2015-2019</p>
                   </div>
                   <div>
                     <h3 className="font-semibold">Web Development Bootcamp</h3>

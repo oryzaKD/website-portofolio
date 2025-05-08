@@ -37,9 +37,9 @@ function App() {
           <Contact />
         </main>
         <Footer />
-        <div className="fixed bottom-4 right-4">
+        {/* <div className="fixed bottom-4 right-4">
           <ThemeToggle />
-        </div>
+        </div> */}
       </div>
     </ThemeProvider>
   )

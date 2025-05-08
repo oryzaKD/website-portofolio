@@ -3,6 +3,8 @@
 import { motion } from "framer-motion"
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import profileImg from "@/assets/photo-profile.png"
+import styles from '@/pages-css/hero.module.css';
 // import Link from "next/link"
 
 export function Hero() {
@@ -18,15 +20,16 @@ export function Hero() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
               >
-                Hi, I'm <span className="text-primary">Oryza Kusuma Dewi</span>
+                Hi, I'm <span className={styles.contentName}>Oryza Kusuma Dewi</span>
               </motion.h1>
+              <div className={styles.typewriter}>I'm a <span></span></div>
               <motion.p
                 className="max-w-[600px] text-muted-foreground md:text-xl"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                A passionate Full Stack Developer with expertise in building exceptional digital experiences
+                A passionate about crafting seamless user experiences and ensuring top-notch software quality
               </motion.p>
             </div>
             <motion.div
@@ -58,11 +61,6 @@ export function Hero() {
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="mailto:your.email@example.com">
-                <Button variant="ghost" size="icon" aria-label="Email">
-                  <Mail className="h-5 w-5" />
-                </Button>
-              </a>
             </motion.div>
           </div>
           <motion.div
@@ -73,7 +71,7 @@ export function Hero() {
           >
             <div className="relative aspect-square overflow-hidden rounded-full border-4 border-primary/20 bg-muted">
               <img
-                src="/placeholder.svg?height=600&width=600"
+                src={profileImg}
                 alt="Profile"
                 width={600}
                 height={600}

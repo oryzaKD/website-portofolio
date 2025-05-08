@@ -1,0 +1,92 @@
+.contentName {
+    color: #F8F8F8;
+    text-shadow: 0 0 10px #2DD4BF99, 0 0 20px #2DD4BF55;
+}
+
+.typewriter{
+    font-weight: 600;
+    font-size: clamp (1rem, 1rem + 5vw, 2rem);
+}
+
+.typewriter span {
+    color: #F8F8F8;
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px #2DD4BF99, 0 0 20px #2DD4BF55;
+    position: relative;
+    transition: 0.3s linear;
+}
+
+.typewriter span::before {
+    content: "Frontend Developer";
+    animation: words 15s infinite;
+}
+
+.typewriter span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid #71717A;
+    animation: cursor 0.6s linear infinite;
+}
+
+@keyframes cursor {
+    to{
+    border-left: 3px solid #27272A;
+    }
+}
+
+@keyframes words {
+    0%, 50%{
+        content: 'Frontend Developer';
+    } 
+    51%, 100%{
+        content: 'Software Quality Assurance';
+    }    
+}
+
+.buttonAbout {
+    /* width: 40%;
+    height: 6vh; */
+    /* margin: 30px; */
+    background-color: #18181B;
+    color: #18181B;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.2s linear;
+}
+
+.buttonAbout Button:hover {
+    scale: 1.1;
+    color: #18181B;
+    border: 2px solid #18181B;
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 10px #2DD4BF99, 0 0 20px #2DD4BF55;
+}
+
+.buttonContact {
+    /* width: 40%;
+    height: 6vh; */
+    /* margin: 30px; */
+    background-color: aqua;
+    color: aqua;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.2s linear;
+}
+
+.buttonContact Button:hover {
+    scale: 1.1;
+    color: aqua;
+    border: 2px solid aqua;
+    background-color: transparent;
+    font-weight: 700;
+    box-shadow: 0 0 10px #2DD4BF99, 0 0 20px #2DD4BF55;
+}
