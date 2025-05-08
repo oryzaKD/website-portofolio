@@ -57,14 +57,14 @@ export function About() {
                     <h3 className="font-semibold">Bachelor's degree, Information System</h3>
                     <p className="text-sm text-muted-foreground">University of Jember, 2015-2019</p>
                   </div>
-                  <div>
+                  {/* <div>
                     <h3 className="font-semibold">Web Development Bootcamp</h3>
                     <p className="text-sm text-muted-foreground">Coding Academy, 2020</p>
                   </div>
                   <div>
                     <h3 className="font-semibold">AWS Certified Developer</h3>
                     <p className="text-sm text-muted-foreground">Amazon Web Services, 2021</p>
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>
